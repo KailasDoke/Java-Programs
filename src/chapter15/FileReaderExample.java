@@ -4,11 +4,18 @@ import java.io.IOException;
 import java.io.FileNotFoundException;
 
 public class FileReaderExample {
-    String filename  =  "text.txt";
+    public static void main(String[] args) {
+        try {
+            FileReader reader = new FileReader("input.txt");
 
-    try ( FileReader read = new FileReader(filename)){
+            int ch;
+            while ((ch = reader.read()) != -1) {
+                System.out.print((char) ch);
+            }
 
-    }catch (IOException e){
-
+            reader.close();
+        } catch (IOException e) {
+            System.out.println("Error reading file: " + e.getMessage());
+        }
     }
 }
