@@ -6,5 +6,5 @@ public class TestCalculator {
             clculator c = new clculator();
             System.out.println(c.add(2,3));
         }
-    
+
 }
