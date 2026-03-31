@@ -5,8 +5,8 @@ import java.util.List;
 
 public class TestingList {
     public static void main(String[] args) {
-        List strlist = new ArrayList();
-        strlist.add("10");
+        List  strlist = new ArrayList ();
+        strlist.add(10);
         strlist.add("KAils");
         strlist.add(1,"Doke");
         //strlist.remove(2 );
