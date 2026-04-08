@@ -15,6 +15,7 @@ public class PrintTask implements Runnable  {
     private final char targetChar;
 
     public PrintTask(char targetChar) {
+
         this.targetChar = targetChar;
     }
 }

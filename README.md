@@ -6,35 +6,37 @@ In src all chapters are there and code is inside of the chapters
 
 chapter1:
 
-&nbsp;	|--Data Types
+ 	|--Data Types
 
-&nbsp;	|--user inputs	
+ 	|--user inputs
 
 
 
 chapter2:
 
-&nbsp;	|--swaptwonumbers
+ 	|--swaptwonumbers
 
 
 
 chapter3:
 
-&nbsp;	|--Arithmetic
+ 	|--Arithmetic
 
 
 
 chapter4:
 
-&nbsp;	|--Loops
+ 	|--Loops
 
 
 
 chapter5:
 
-&nbsp;	|--methods
+ 	|--methods
 
 chapter6:
 
-&nbsp;	|--Array
+ 	|--Array
+
+chapter7:
 
