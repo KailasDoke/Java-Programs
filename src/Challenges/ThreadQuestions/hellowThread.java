@@ -10,7 +10,7 @@ public class hellowThread extends Thread{
     @Override
     public void run() {
         for(int i=0;i<10;i++){
-            System.out.printf("(%d) Hellow from thread %d\n",i,threadNumber);
+            System.out.printf("(%d)  Hellow from thread %d\n",i,threadNumber);
         }
     }
 }
